@@ -27,7 +27,7 @@ namespace ToolsQA
             Email.SendKeys("vedrana.mitrovic@outlook.com");
 
             IWebElement Mobile = driver.FindElement(By.Id("userNumber"));
-            Mobile.SendKeys("0638641853");
+            Mobile.SendKeys("063123456");
 
             IWebElement CurrentAddress = driver.FindElement(By.Id("currentAddress"));
             CurrentAddress.SendKeys("Savski nasip 7, Belgrade");
